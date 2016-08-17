@@ -15,5 +15,11 @@ namespace Vidly.Controllers
             var movie = new Movie() {Name = "Shrek"};
             return View(movie);
         }
+
+        public ActionResult Test()
+        {
+            return View("Test");
+
+        }
     }
 }
